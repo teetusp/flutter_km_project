@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_km_project/views/home03_ui.dart';
+import 'package:flutter_km_project/views/home05_ui.dart';
+import 'package:flutter_km_project/views/home06_ui.dart';
 import 'package:flutter_km_project/views/introduction_screen_ui.dart';
 import 'package:flutter_km_project/views/splashsreen_ui.dart';
 
@@ -20,7 +23,7 @@ class _FultterKMState extends State<FultterKM> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: IntroductionScreenUI(),
+      home: Home06UI(),
     );
   }
 }
